@@ -1,0 +1,38 @@
+{"response": [
+    {"tag" : "greetings",
+    "patterns" : ["Hello","Hi","How's it going?","How are you doing?"],
+    "responses" : ["Hey! This is Krypro here! What can I do for you?"]
+    },
+
+    {"tag" : "goodbye",
+    "patterns" : ["See you then","Bye","Goodbye","Have a good day","I'm leaving then"],
+    "responses" : ["Alright! See you then, have a nice day!"]
+    },
+
+    {"tag" : "website",
+    "patterns" : ["What do you do?","What does this website do?","What is the use of this website?"],
+    "responses" : ["CryptoKnight is a cryptocurrency website where we provide Bitcoin mining features and also do Bitcoin Forecasting"]
+    },
+
+    {"tag" : "mining",
+    "patterns" : ["What is Bitcoin Mining?"],
+    "responses" : ["Bitcoin mining is the process of creating new bitcoin by solving a computational puzzle."]
+    },
+
+    {"tag" : "forecasting",
+    "patterns" : ["What is bitcoin forecasting?"],
+    "responses" : ["Weather forecasting is the application of AI technology to predict the value of Bitcoin for a given time."]
+    },
+
+    {"tag" : "crytocurrency",
+    "patterns" : ["what is crytocurrency?"],
+    "responses" : ["A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend."]
+    },
+
+    {"tag" : "facts",
+    "patterns" : ["Can you provide me with some Bitcoin facts?","Facts"],
+    "responses" : ["The total amount of bitcoin is limited","No one knows who created bitcoin","Cryptocurrency can’t be physically banned","There are over 5,000 different currencies","China is the biggest cryptocurrency miner","They are taxable"]
+    }
+]
+
+}
