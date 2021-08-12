@@ -53,12 +53,12 @@ for doc in docs:
 
 random.shuffle(train)
 train = np.array(train)
-print(type(train))
+#print(type(train))
 
 x_train = list(train[:, 0])
 y_train = list(train[:, 1])
 
-print(x_train)
+#print(len(x_train[0]))
 
 model = Sequential()
 model.add(Dense(128, input_shape=(len(x_train[0]),), activation = 'relu'))

@@ -20,7 +20,7 @@
     },
 
     {"tag" : "forecasting",
-    "patterns" : ["What is bitcoin forecasting?","What does Bitcoin forecasting means?"],
+    "patterns" : ["What is bitcoin forecasting?","What does Bitcoin forecasting means?","What does Bitcoin forecasting actually means?"],
     "responses" : ["Bitcoin forecasting is the application of AI technology to predict the value of Bitcoin for a given time."]
     },
 

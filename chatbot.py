@@ -13,7 +13,7 @@ responses = json.loads(open('response.json').read())
 
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
-model = load_model('chatbot_model.model')
+model = load_model('chatbot_model.h5')
 
 
 def cleaning_sentence(sentence):
@@ -21,6 +21,8 @@ def cleaning_sentence(sentence):
     sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
 
     return sentence_words
+
+#print(cleaning_sentence('This is how you do a NLP Chatbot'))
 
 
 def bag_of_words(sentence):
@@ -46,6 +48,9 @@ def predict_responses(sentence):
     for r in res:
         return_list.append({'response': classes[r[0]], 'probability': str(r[1])})
     return return_list
+
+print(predict_responses('Can you explain me a bit about Bitcoin Mining?'))
+
 
 
 def get_response(ret_list, json_file):
